@@ -25,10 +25,12 @@ Graphical Representation: Uses matplotlib and seaborn to plot a line graph for i
 Error Handling: Includes robust handling for potential issues such as failed API requests or malformed responses.
 
 📂 Project Structure
+
 The project consists of a single Python script:
 app.py — The main script containing all logic for API calls, data processing, and plotting.
 
 🔧 Configuration
+
 The application is fully configurable through simple variables defined at the beginning of the app.py script. You can modify the following parameters to tailor the data retrieval and visualization:
 COIN_ID = "bitcoin"      # e.g., "ethereum", "solana", etc.
 CURRENCY = "usd"         # e.g., "eur", "inr", etc.
@@ -36,6 +38,7 @@ DAYS = 7                 # Number of past days to visualize
 By changing these values, the app can be repurposed for different cryptocurrencies, currencies, or time spans without modifying the core logic.
 
 📦 Requirements
+
 1. Python 3.x
 2. requests
 3. matplotlib
@@ -45,6 +48,7 @@ Install dependencies using pip:
 pip install requests matplotlib seaborn
 
 ▶️ Usage
+
 This will execute the following steps:
 1. Send a GET request to the CoinGecko API to fetch the price data for the specified coin.
 2. Extract the time-series data from the JSON response.
@@ -62,17 +66,21 @@ The final output is a time-series line chart with:
 
 
 🚨 Error Handling
+
 The script includes checks to ensure a successful API response. If the API call fails or the expected data format is not received, meaningful error messages will be printed, preventing crashes and aiding in debugging.
 
 🔍 Use Cases
+
 1. Demonstrate API integration and data visualization in coding tutorials or classrooms.
 2. Build foundational tools for crypto price monitoring.
 3. Extend it into a larger dashboard or analytics system.
 4. Use it for data collection and research purposes.
 
 🧩 Notes
+
 Ensure you have an active internet connection.
 CoinGecko's public API is rate-limited — avoid excessive requests.
 
 📃 License
+
 This project is distributed under the MIT License, meaning it is free to use, modify, and distribute with appropriate attribution.
