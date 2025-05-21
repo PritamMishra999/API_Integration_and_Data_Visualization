@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-*TASK DESCRIPTION*
+/TASK DESCRIPTION/
 The API Integration and Data Visualization application is a Python-based tool designed to fetch real-time cryptocurrency price data using the CoinGecko API and present it in a visually insightful format. This lightweight yet powerful script allows users to retrieve historical price data of a selected cryptocurrency over a defined number of past days and automatically generate an interactive line chart illustrating the price trend. It is a helpful utility for developers, traders, analysts, and educators who wish to explore or demonstrate how to integrate APIs with data visualization in Python.
 
 🚀 Features
